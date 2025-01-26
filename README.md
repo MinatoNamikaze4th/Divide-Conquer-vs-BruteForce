@@ -6,14 +6,16 @@ sys/time.h library for timing measurements
 Usage:
 Compile the program with a C++ compiler using the following command:
 
-bash
-Copy
+
 g++ -o closest_pair closest_pair.cpp
+
+
 Run the program:
 
-bash
-Copy
+
 ./closest_pair
+
+
 Functionality:
 struct Point: Defines a point in 2D space with integer coordinates (x, y).
 calculateDistance(): Computes the Euclidean distance between two points.
